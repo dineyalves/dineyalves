@@ -7,7 +7,7 @@ Sou analista de dados em uma fintech de crédito consignado. Atuo no core da ope
 - Construção de pipelines da ingestão à camada de consumo: arquitetura Medallion, Parquet, Dataflows (Microsoft Fabric), BigQuery sobre GCS e Databricks (SQL, tabelas Delta)
 - Automações em Python para captura de dados em sistemas externos: Microsoft Graph API e RPA com Selenium para fontes sem API
 - Qualidade de dados: regras de matching, deduplicação e monitoramento de falhas de carga
-- Criação e manutenção de Dashboards em power bi/html 
+- Criação e manutenção de Dashboards em **Power BI e HTML**
 
 **Resultados que medi**
 
