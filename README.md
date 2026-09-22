@@ -42,8 +42,7 @@ capacidade no Microsoft Fabric
 
 ---
 
-**Me aperfeiçoando agora:** SQL · PySpark · Airflow · Docker *(projeto de pipeline próprio com dados sintéticos,
-evoluindo uma camada por fase)*
+**Me aperfeiçoando agora:** PySpark · Airflow · Docker
 
 ---
 
