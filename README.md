@@ -25,7 +25,7 @@ Sou analista de dados em uma fintech de crédito consignado. Atuo no core da ope
 
 - Atualização de pipeline de **2h+ para menos de 15 min**, redesenhando o fluxo de processamento e o formato dos arquivos
 - Arquitetura Medallion + Parquet nos 5 relatórios principais: **−70% de armazenamento** e **−42% no refresh** do Power BI Service, viabilizando o uso de todo o histórico, antes inviável pelo tamanho dos arquivos
-- Envio mensal a convênios: **~13h manuais para ~5 min**, com uma automação em Python de interface visual que permite análise prévia, confirmação de envio e alertas de erro
+- Envio mensal a convênios: **~12h manuais para ~5 min**, com uma automação em Python de interface visual que permite análise prévia, confirmação de envio e alertas de erro
 - Repasse de valores: a plataforma limitava o envio a 10 mil linhas por dia, o que atrasava o repasse aos clientes no dia do vencimento. Criei uma automação que envia em lote, vencimento a vencimento, identificando convênios prontos para repasse, erros operacionais e atrasos na conciliação. **Foi adotada pelo time, que a apelidou de "Neyliqui"**
 - No negócio: tabelas operacionais e relatórios executivos entregues mais cedo, menos retrabalho entre cortes de fatura e importações, e painéis atualizados com mais frequência
 
