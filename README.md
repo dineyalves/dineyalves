@@ -48,21 +48,20 @@ capacidade no Microsoft Fabric
 
 **Stack**
 
-![Python](https://img.shields.io/badge/Pytlogo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Databricks](https://img.shields.io/badge-square&logo=databricks&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![MicrosoftFabric](https://img.shields.io/badge/Microsoft_Fabric-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![Power BI](https://img.shields.io/badge/Pare&logo=powerbi&logoColor=black)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft_Fabric-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logoColor=black)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F0it&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Aprendendo**
 
-![PySpark](https://img.shields.io/badge/Pye&logo=apachespark&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Doclogo=docker&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square)
 ![Azure](https://img.shields.io/badge/Azure_Data-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-
 ---                                                                                                                
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dineyalves&layout=compact&theme=default&hide_border=true&langs_count=6)](https:/
