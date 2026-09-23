@@ -12,24 +12,36 @@
 
 ---
 
-Sou analista de dados em uma fintech de crédito consignado. Atuo no core da operação, responsável pela ingestão, qualidade e disponibilização dos dados, e também pela integração de novas ferramentas e de Inteligência Artificial no nosso ambiente, com foco em eficiência e produtividade do time.
+Trabalho com dados em uma fintech de crédito consignado. Cuido do caminho inteiro do dado: entrada, tratamento e entrega pronta para análise.
+
+Minha área não tem acesso ao banco SQL da empresa. Montei a estrutura de dados com as ferramentas que tinha — Python, Parquet, Dataflows e camadas Medallion. Está rodando em produção e virou a base da migração das bases para SQL.
+
+Vim da conciliação financeira, então olho qualidade de dado como regra de negócio: um valor divergente vira desconto recusado e, no fim, inadimplência.
+
+---
 
 **O que eu faço hoje**
 
-- Construção de pipelines da ingestão à camada de consumo: arquitetura Medallion, Parquet, Dataflows (Microsoft Fabric), BigQuery sobre GCS e Databricks (SQL, tabelas Delta)
-- Automações em Python para captura de dados em sistemas externos: Microsoft Graph API e RPA com Selenium para fontes sem API
-- Qualidade de dados: regras de matching, deduplicação e monitoramento de falhas de carga
-- Criação e manutenção de dashboards em Power BI e HTML
+- Construo e mantenho os pipelines da área, da entrada do dado até a camada que o time consome: Medallion, Parquet, Dataflows (Microsoft Fabric), BigQuery sobre Cloud Storage e Databricks (SQL, tabelas Delta)
+- Trato de 260 a 380 mil linhas por dia
+- Automatizo coletas e integrações em Python: Microsoft Graph API, REST e, quando a fonte não tem API, Selenium
+- Cuido da qualidade dos dados: regras de conciliação e matching, detecção de divergências, deduplicação e monitoramento de falhas de carga
+- Sou a ponta técnica da iniciativa de IA da área: modelos de previsão de resultado, busca inteligente de inadimplência, chat de perguntas sobre os dados e agentes (n8n) que acompanham conciliações, erros operacionais e pagamentos
+- Construo e mantenho os dashboards em Power BI e HTML
+
+---
 
 **Impactos**
 
-- Atualização de pipeline de **2h+ para menos de 15 min**, redesenhando o fluxo de processamento e o formato dos arquivos
-- Arquitetura Medallion + Parquet nos 5 relatórios principais: **−70% de armazenamento** e **−42% no refresh** do Power BI Service, viabilizando o uso de todo o histórico, antes inviável pelo tamanho dos arquivos
-- Envio mensal a convênios: **~12h manuais para ~5 min**, com uma automação em Python de interface visual que permite análise prévia, confirmação de envio e alertas de erro
-- Repasse de valores: a plataforma limitava o envio a 10 mil linhas por dia, o que atrasava o repasse aos clientes no dia do vencimento. Criei uma automação que envia em lote, vencimento a vencimento, identificando convênios prontos para repasse, erros operacionais e atrasos na conciliação. **Foi adotada pelo time, que a apelidou de "Neyliqui"**
+- A atualização do pipeline caiu de mais de **2 horas para menos de 15 minutos**. Levei o processamento local para ETL em nuvem e cortei as etapas que se repetiam
+- Montei a arquitetura Medallion do zero e converti os arquivos .dat para Parquet: **70% menos espaço** e **42% menos tempo de refresh** no Power BI Service. Isso liberou o uso de todo o histórico, antes inviável, e enxugou o custo de licenças e de capacidade contratada
+- Envio mensal das importações de convênio: de **~12 horas para ~5 minutos**, com um app em Python que mostra quantidades e valores para conferir antes do disparo e alerta os erros do processo
+- Criei a automação de repasse de valores em lote para contornar o limite de 10 mil linhas por dia da plataforma, que atrasava o crédito do cliente no vencimento. **O atraso diminuiu em 3 dias**, com pontos de validação e alerta de convênio perto de perder o vencimento. O time incorporou a ferramenta ao processo e a apelidou de "Neyliqui"
 - No negócio: tabelas operacionais e relatórios executivos entregues mais cedo, menos retrabalho entre cortes de fatura e importações, e painéis atualizados com mais frequência
 
-**Me aperfeiçoando agora:** SQL · PySpark · Airflow · Docker (projeto de pipeline próprio, com dados sintéticos, evoluindo uma camada por fase)
+---
+
+**Em estudo agora:** SQL · PySpark · Airflow · Docker (pipeline próprio, com dados sintéticos, evoluindo uma camada por fase)
 
 **Stack**
 
